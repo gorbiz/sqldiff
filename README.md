@@ -12,7 +12,7 @@ $ `sqldiff mydb [--open]`
  - starts webserver
  - opens diff viewer web page
 
-$ `sqldiff --snapshot[="some snapshot name"]
+$ `sqldiff --snapshot[="some snapshot name"]`
  - (given that dqldiff is running;) takes snapshot
 
 ## interface
