@@ -38,7 +38,7 @@ Secondary:
 before: ->
   `sqldiff mydb`
 ...
-beforeEach: ->
+afterEach: ->
   `sqldiff --snapshot="#{framework.getTestName()}"`
 ```
 
