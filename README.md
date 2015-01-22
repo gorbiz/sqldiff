@@ -7,7 +7,14 @@ Suited for small dev / testing databases, during development (& debugging).
 
 ## cli
 
-$ `sqldiff mydb [--open]`
+$ `sqldiff mydb`
+ - takes snapshot of `mydb`
+
+$ `sqldiff`
+ - snapshots `mydb` again
+ - prints diff to stdout
+
+$ `sqldiff mydb --ui`
  - takes snapshot of `mydb`
  - starts webserver
  - opens diff viewer web page
